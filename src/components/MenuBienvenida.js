@@ -4,7 +4,9 @@ import { useState, useEffect } from "react"
 const obtenerUsuario = () =>
     Promise.resolve({ nombre: "Juan" });
 
-const MenuBienvenida = () => {
+///////////////////////
+
+    const MenuBienvenida = () => {
     const [usuario, setUsuario] = useState(null);
 
     const onClick = async () =>

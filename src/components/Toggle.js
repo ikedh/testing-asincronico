@@ -5,7 +5,8 @@ const Toggle = ({onBtnClick = () => {}}) => {
 const onClick = e =>{
     setTimeout(() => {
         onBtnClick(e)
-    }, 500);
+        console.log("boto apretado");
+    }, 3000);
 }
 
   return (
